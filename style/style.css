@@ -15,6 +15,10 @@ button:focus{
     outline: unset;
     box-shadow: unset !important;
 }
+a:focus{
+    outline: unset;
+    box-shadow: unset !important;
+}
 .hero{
     padding: 30px 0;
 }
@@ -201,6 +205,9 @@ button:focus{
     .fs-25 {
         font-size: 20px;
     }
+    .navbar-toggler.collapsed {
+        border: unset;
+    }
     .text-end .img-fluid.mx-1 {
         width: 100px;
         margin-bottom: 30px !important;
@@ -319,5 +326,15 @@ button:focus{
     }
     .footer .col-md-6 .row .col-md {
         text-align: center;
+    }
+    .navbar-nav .text-end img {
+        display: inline;
+    }
+}
+
+
+@media screen and (max-width:576px){
+    .navbar-brand {
+        width: 125px !important;
     }
 }
