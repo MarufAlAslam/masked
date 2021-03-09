@@ -330,6 +330,9 @@ a:focus{
     .navbar-nav .text-end img {
         display: inline;
     }
+.hero .img-fluid {
+    border-radius: 55px;
+}
 }
 
 
